@@ -1,0 +1,24 @@
+#myDiv {
+  margin: 0 auto;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+#header {
+  text-align: center; 
+}
+
+#date {
+  text-align: center;
+}
+
+#userImage {
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#btn {
+  margin-left: 42%;
+}
+

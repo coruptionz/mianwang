@@ -163,7 +163,7 @@ var GMaps = (function(global) {
         container_id = options.el || options.div,
         markerClustererFunction = options.markerClusterer,
         mapType = google.maps.MapTypeId[options.mapType.toUpperCase()],
-        map_center = new google.maps.LatLng(37.3382 , -121.8863),
+        map_center = new google.maps.LatLng(options.lat, options.lng),
         zoomControl = options.zoomControl || true,
         zoomControlOpt = options.zoomControlOpt || {
           style: 'DEFAULT',
@@ -2113,3 +2113,4 @@ if (!Array.prototype.indexOf) {
   
 return GMaps;
 }));
+

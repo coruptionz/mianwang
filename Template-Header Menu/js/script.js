@@ -212,7 +212,7 @@ function parallax() {
       });
     // add address markers
     map.addMarker({ lat: 37.3382, lng: -121.8863, title: 'BD InfoSys',
-      infoWindow: { content: '<p>Building # 2, Plot # 111, Road # 35, Gulshan - 2, Dhaka</p>' } });
+      infoWindow: { content: 'San Jose, California' } });
 
 /*----------------------------------------------------*/
 /*	contact form
